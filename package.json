@@ -1,0 +1,15 @@
+{
+  "name": "vue",
+  "version": "1.0.0",
+  "description": "1. Progressive Framework\r 2. Build tool [webpack](https://webpack.js.org/concepts/)",
+  "main": "gridsample.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --colors --hot --inline",
+    "build": "webpack --colors --watch"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
