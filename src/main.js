@@ -1,4 +1,8 @@
-import Vue from "vue";
-import "../node_modules/ag-grid/dist/styles/ag-grid.css";
-import "../node_modules/ag-grid/dist/styles/ag-theme-balham.css";
+import Vue from 'vue';
+import App from './App.vue'
 
+new Vue({
+	el: '#app',
+	tepmlate: '<App/>',
+	components: { App }
+});

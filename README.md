@@ -9,4 +9,3 @@
 + initialize npm project: npm init -y
 + install webpack npm: install webpack --save-dev
 + npm install webpack-dev-server --save-dev
-
