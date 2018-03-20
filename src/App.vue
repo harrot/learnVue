@@ -1,17 +1,20 @@
 <template>
     <div id="app">
-        <h1>\{{ msg }}</h1>
+        <h1>{{ msg }}</h1>
+        <test></test>
     </div>
 </template>
 
 <script>
+import Test from './components/FirstComponent'
 export default {
   name: 'app',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Vue and Webpack example with component'
     }
-  }
+  },
+  components:{Test}
 }
 </script>
 <!-- scoped limit CSS to this component only-->

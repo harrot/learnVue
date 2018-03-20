@@ -1,16 +1,22 @@
 
 <template>
-    <div class="c1">
-        <h1> {{ msg }}</h1>
+    <div class="test">
+        <span v-html="title"></span>
+        <p v-text="user.lastName + user.firstName"></p>
     </div>
 </template>
 
 <script>
     export default {
-        name:'c1',
+        name:'test',
+    
         data () {
             return {
-                msg: "Hello first Vue Component!"
+                title: '<h1>Hello World!</h1>',
+                user: {
+                    firstName : 'H',
+                    lastName: 'X'
+                }
             }
         }
     }
@@ -18,7 +24,7 @@
 <!-- scoped limit CSS to this component only-->
 <style scoped>
 h1 {
-    font-weight: normal;
-    color: red;
+  font-weight: normal;
+  color: red;
 }
 </style>

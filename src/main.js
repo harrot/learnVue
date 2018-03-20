@@ -3,6 +3,6 @@ import App from './App.vue'
 
 new Vue({
 	el: '#app',
-	tepmlate: '<App/>',
+	template: '<App/>',
 	components: { App }
 });
