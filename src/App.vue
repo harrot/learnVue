@@ -1,7 +1,7 @@
 <template>
     <div id="app">
         <h1>{{ msg }}</h1>
-        <test></test>
+        <test prop1="KAKA"></test>
     </div>
 </template>
 
@@ -11,7 +11,7 @@ export default {
   name: 'app',
   data () {
     return {
-      msg: 'Vue and Webpack example with component'
+      msg: 'Vue and Webpack example with computed and properties'
     }
   },
   components:{Test}
